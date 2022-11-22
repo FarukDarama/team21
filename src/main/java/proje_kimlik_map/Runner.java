@@ -11,6 +11,10 @@ public class Runner {
         person.put("3345",new Persons("Busra","Kars","01478521"));
         person.put("4345",new Persons("Merve","Hatay","01478522"));
         selectOption();
+        System.out.println("silmek icin ekliyorum ");
+        System.out.println("silmek icin ekliyorum ");
+        System.out.println("silmek icin ekliyorum ");
+        System.out.println("silmek icin ekliyorum ");
 
     }
 }
