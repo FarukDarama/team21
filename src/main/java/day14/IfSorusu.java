@@ -24,10 +24,11 @@ public class IfSorusu {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Harf Girin");
-        String alfabe="A\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tK\tL\tM\tN\tO\tP\tQ\tR\tS\tT\tU\tV\tW\tX\tY\tZ\t" +
+        String alfabe="A\tC\tD\tE\tF\tG\tH\tI\tJ\tK\tL\tM\tN\tO\tP\tQ\tR\tS\tT\tU\tV\tW\tX\tY\tZ\t" +
                 "a\tb\tc\td\te\tf\tg\th\ti\tj\tk\tl\tm\tn\to\tp\tq\tr\ts\tt\tu\tv\tw\tx\ty\tz";
         String sayilar ="0123456789";
         String str = input.next();
+
 
         if (str.length()!=1){
             System.out.println("Yanlış karakter girdiniz");
@@ -44,6 +45,8 @@ public class IfSorusu {
         }else {
             System.out.println("Yanlıs karakter");
         }
+
+
 
 
     }
